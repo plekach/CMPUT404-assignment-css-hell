@@ -1,0 +1,123 @@
+body {
+    font-family: 'Gloock', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(red, white);
+    font-size: 3em;
+    text-align: center;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    color: greenyellow;
+}
+
+.sub-header {
+    font-size: 15pt;
+}
+
+.flex-container {
+    height: 100%;
+    display: flex;
+}
+
+.sidebar-container {
+    background: linear-gradient(red, yellowgreen);
+    animation: sidecolor 1s infinite;
+    flex: 0.25;
+    border-radius: 10pt;
+}
+
+@keyframes sidecolor {
+    from {background: linear-gradient(red, yellowgreen);}
+    to {background: linear-gradient(blue, purple);}
+}
+
+div.sidebar-section {
+    height: 80%;
+    font-size: 15pt;
+    margin: 5pt;
+    color: yellowgreen;
+}
+
+hr.sidebar {
+    color: #e4ecea;
+    border-style: inset;
+    border-width: 1pt;
+    margin: 0.5em auto;
+    width: 100%;
+}
+
+div.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.flex-item {
+    flex: 1;
+    margin-right: 10pt;
+}
+
+.bio {
+}
+
+.title {
+    font-size: 20pt;
+    background: blueviolet;
+    color: yellowgreen;
+}
+
+div.body-title {
+    font-size: 15pt;
+    margin: 5pt;
+}
+
+div.body-subtitle {
+    margin-left: 5pt;
+    font-size: 15pt;
+}
+
+img {
+    width: 50%;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+div.image-container {
+    text-align: center;
+    flex: 0.5;
+    border-radius: 10pt;
+}
+
+ul.work-items {
+    list-style-type: circle;
+}
+
+div {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}

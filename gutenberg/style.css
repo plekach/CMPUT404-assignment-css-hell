@@ -1,0 +1,73 @@
+body {
+    background: #c8d7ea;
+    font-family: New Century Schoolbook;
+}
+
+h1 {
+    margin: 5pt;
+    text-decoration: underline;
+}
+
+h2.cursive {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+h2 {
+    border: 2pt#304a88 dotted;
+    display: inline-block;
+    font-size: 2em;
+    padding: 3pt;
+    margin:0;
+}
+
+h3 {
+    margin: 0;
+    display: inline-block;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 1.5em;
+    text-decoration: bold;
+}
+
+p {
+    text-align: justify;
+    margin-left: 5pt;
+    margin-right: 5pt;
+}
+
+div {
+    margin: 0;
+    padding:0;
+}
+
+div.container {
+    flex: 1;
+    margin-left: 10pt;
+    border: 2pt #304a88 solid;
+    border-radius: 10pt;
+    text-align: center;
+    margin:0;
+}
+
+div.title {
+    padding: 10pt;
+    text-align: center;
+    background: #304a88;
+    color: #c8d7ea;
+    margin-bottom: 10pt;
+    margin-top: 10pt;
+}
+
+img {
+    width: 70%;
+}
+
+div.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+div.cover {
+    flex: 0.9;
+}

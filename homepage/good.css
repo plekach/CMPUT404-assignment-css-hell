@@ -1,0 +1,112 @@
+body {
+    font-family: 'Gloock', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #7F636E;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    color: white;
+}
+
+.sub-header {
+    font-size: 15pt;
+}
+
+.flex-container {
+    height: 100%;
+    display: flex;
+}
+
+.sidebar-container {
+    background: #aa979f;
+    flex: 0.25;
+    border-radius: 10pt;
+    margin: 10pt;
+   
+}
+
+div.sidebar-section {
+    height: 80%;
+    font-size: 15pt;
+    margin: 5pt;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+hr.sidebar {
+    color: #e4ecea;
+    border-style: inset;
+    border-width: 1pt;
+    margin: 0.5em auto;
+    width: 100%;
+}
+
+div.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.flex-item {
+    flex: 1;
+    margin-right: 10pt;
+}
+
+.bio {
+    flex: 0.75;
+}
+
+.title {
+    font-size: 20pt;
+    margin-bottom: 10pt;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    text-align: center;
+    background: #aa979f;
+    border-radius: 10pt;
+    text-decoration:underline wavy;
+    color: white;
+}
+
+div.body-title {
+    font-size: 15pt;
+    text-align: center;
+    margin: 5pt;
+    border: 1pt solid #7F636E;
+    border-radius: 10pt;
+}
+
+div.body-subtitle {
+    font-style: italic;
+    margin-left: 10pt;
+    font-size: 15pt;
+}
+
+img {
+    width: 50%;
+}
+
+div.image-container {
+    text-align: center;
+    flex: 0.5;
+    border-radius: 10pt;
+}
+
+ul.work-items {
+    list-style-type: circle;
+}
