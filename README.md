@@ -25,6 +25,11 @@ Code and Stying implementation is copyright Paige Lekach 2023 under the
 Apache License, Version 2.0 (the "License");
 
 
+Gutenberg updates
+=================
+In my three gutenberg files, I changed which sections were called with h1, h2, or h3 headers so that they fit the styling I was hoping for implemented in
+my css file. The content of the gutenberg files though is unchanged.
+
 Resources
 ==========
 
